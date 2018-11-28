@@ -130,13 +130,13 @@ void dah()
 void space()
 {
     digitalWrite(PIN, LOW);
-    delay(DIT_TIME * 9);
+    delay(DIT_TIME * 4);
 }
 
 void letter()
 {
     digitalWrite(PIN, LOW);
-    delay(DIT_TIME * 3);
+    delay(DIT_TIME * 2);
 }
 
 char* readSerial() 
